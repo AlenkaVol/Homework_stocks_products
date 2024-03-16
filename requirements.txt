@@ -1,4 +1,9 @@
-django==5.0.2
-djangorestframework==3.14.0
-psycopg2-binary==2.9.9
-django_filter==23.5
+django
+djangorestframework
+psycopg2-binary
+django_filter
+python-dotenv
+gunicorn
+requests
+flake8
+

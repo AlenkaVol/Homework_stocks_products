@@ -7,8 +7,8 @@ POST {{baseUrl}}/products/
 Content-Type: application/json
 
 {
-  "title": "Огурец",
-  "description": "Лучшие огурцы на рынке"
+  "title": "Картошка",
+  "description": "Лучшая картошка на рынке"
 }
 
 ###
@@ -20,17 +20,17 @@ Content-Type: application/json
 ###
 
 # обновление продукта
-PATCH {{baseUrl}}/products/2/
+PATCH {{baseUrl}}/products/4/
 Content-Type: application/json
 
 {
-  "description": "Самые сочные и ароматные помидорки"
+  "description": "Самая сочная картошка"
 }
 
 ###
 
 # удаление продукта
-DELETE {{baseUrl}}/products/2/
+DELETE {{baseUrl}}/products/4/
 Content-Type: application/json
 
 ###
